@@ -1,8 +1,8 @@
 package com.example.demo.controllers;
 
-import com.example.demo.dto.ApiResponse;
-import com.example.demo.dto.UserCretionRequest;
-import com.example.demo.dto.UserUpdateRequest;
+import com.example.demo.dto.request.ApiResponse;
+import com.example.demo.dto.request.UserCretionRequest;
+import com.example.demo.dto.request.UserUpdateRequest;
 import com.example.demo.entity.User;
 import com.example.demo.services.UserService;
 import jakarta.validation.Valid;

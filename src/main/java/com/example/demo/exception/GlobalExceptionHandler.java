@@ -1,8 +1,7 @@
 package com.example.demo.exception;
 
-import com.example.demo.dto.ApiResponse;
+import com.example.demo.dto.request.ApiResponse;
 import org.springframework.http.ResponseEntity;
-import org.springframework.jdbc.support.MetaDataAccessException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
